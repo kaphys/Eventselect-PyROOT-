@@ -1,0 +1,5 @@
+# Eventselect Requirements
+
+# PyROOT (comes with ROOT installation, but listing for clarity)
+# On many systems this is handled outside pip, so install ROOT separately.
+# No PyPI package – users must install ROOT via conda or binary.
