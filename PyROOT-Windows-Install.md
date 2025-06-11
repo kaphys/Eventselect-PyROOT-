@@ -33,32 +33,6 @@ In this step, we:
 # One-time Conda initialization for CMD
 #!conda init cmd.exe  #uncomment
 
-```
-
-    no change     C:\Users\kaalz\miniconda3\Scripts\conda.exe
-    no change     C:\Users\kaalz\miniconda3\Scripts\conda-env.exe
-    no change     C:\Users\kaalz\miniconda3\Scripts\conda-script.py
-    no change     C:\Users\kaalz\miniconda3\Scripts\conda-env-script.py
-    no change     C:\Users\kaalz\miniconda3\condabin\conda.bat
-    no change     C:\Users\kaalz\miniconda3\Library\bin\conda.bat
-    no change     C:\Users\kaalz\miniconda3\condabin\_conda_activate.bat
-    no change     C:\Users\kaalz\miniconda3\condabin\rename_tmp.bat
-    no change     C:\Users\kaalz\miniconda3\condabin\conda_auto_activate.bat
-    no change     C:\Users\kaalz\miniconda3\condabin\conda_hook.bat
-    no change     C:\Users\kaalz\miniconda3\Scripts\activate.bat
-    no change     C:\Users\kaalz\miniconda3\condabin\activate.bat
-    no change     C:\Users\kaalz\miniconda3\condabin\deactivate.bat
-    no change     C:\Users\kaalz\miniconda3\Scripts\activate
-    no change     C:\Users\kaalz\miniconda3\Scripts\deactivate
-    no change     C:\Users\kaalz\miniconda3\etc\profile.d\conda.sh
-    no change     C:\Users\kaalz\miniconda3\etc\fish\conf.d\conda.fish
-    no change     C:\Users\kaalz\miniconda3\shell\condabin\Conda.psm1
-    no change     C:\Users\kaalz\miniconda3\shell\condabin\conda-hook.ps1
-    no change     C:\Users\kaalz\miniconda3\Lib\site-packages\xontrib\conda.xsh
-    no change     C:\Users\kaalz\miniconda3\etc\profile.d\conda.csh
-    no change     HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun
-    No action taken.
-    
 
 Check version compatibility:
 
@@ -72,13 +46,13 @@ python --version
     Microsoft Windows [Version 10.0.19045.5854]
     (c) Microsoft Corporation. Alle rechten voorbehouden.
     
-    D:\ROOT\project_1>root-config --python-version
+    C:\%USERPROFILE%>root-config --python-version
      3.11.2
     
-    D:\ROOT\project_1>python --version
+    C:\%USERPROFILE%>python --version
     Python 3.12.9
     
-    D:\ROOT\project_1>
+    C:\%USERPROFILE%>
 
 Create environment (if versions mismatch):
 
