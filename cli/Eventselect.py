@@ -1,7 +1,7 @@
 # cli/eventselect.py
 import argparse
-from eventkit_sdk.io import load_tree
-from eventkit_sdk.analysis import compute_transverse_mass, compare_transverse_mass
+from eventselect_sdk.io import load_tree
+from eventselect_sdk.analysis import compute_transverse_mass, compare_transverse_mass
 
 parser = argparse.ArgumentParser(description="Eventselect CLI")
 
