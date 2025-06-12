@@ -61,6 +61,6 @@ Run Eventselect via the CLI using the `plot` or `compare` subcommands.
 
 ```bash
 python -m cli.eventselect plot \
-    --file "data/mc_161055.VBFH125_WW2lep.root" \
+    --file "ROOT_file.root" \
     --label "VBF H→WW" \
     --output "plots/vbf_mt.png"
