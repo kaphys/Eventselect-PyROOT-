@@ -31,11 +31,13 @@ This project provides a minimal interface to **analyze ROOT trees**, apply **eve
 
 ## Installation
 
+UPDATE: For a step-by-step Windows installation see the documentation: PyROOT-Windows-Install.ipynb
+
 You need the following dependencies:
 
 - Python 3.8+
 - [ROOT](https://root.cern/)
-- `cppyy` Python bindings for ROOT
+
 
 ### Step-by-step (Windows or Linux):
 
